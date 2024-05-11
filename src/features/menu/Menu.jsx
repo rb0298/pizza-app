@@ -5,7 +5,7 @@ function Menu() {
 
   const menuData = useLoaderData();
   console.log(menuData);
-  return <>{menuData.map((pizza) => <MenuItem pizza={pizza} key={pizza.id} />)}</>
+  return <ul >{menuData.map((pizza) => <MenuItem pizza={pizza} key={pizza.id} />)}</ul>
 }
 
 export async function loader() {

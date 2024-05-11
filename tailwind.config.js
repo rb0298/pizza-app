@@ -1,8 +1,14 @@
 /** @type {import('tailwindcss').Config} */
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
-  theme: {
-    extend: {},
-  },
+  
+    theme: {
+      extend: {
+        height: {
+          'vh-80': '80vh', // Custom class for 80% viewport height
+        },
+      },
+    },
+  
   plugins: [],
 };
