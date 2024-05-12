@@ -5,9 +5,13 @@ export default {
     theme: {
       extend: {
         height: {
-          'vh-80': '80vh', // Custom class for 80% viewport height
+          screen:'100dvh'
         },
+
       },
+      fontFamily: {
+        sans:"Roboto Mono, monospace"
+      }
     },
   
   plugins: [],
