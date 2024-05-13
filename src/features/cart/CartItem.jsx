@@ -1,7 +1,8 @@
-import Button from '../../ui/Button'
-import { formatCurrency } from '../../utilis/helpers'
+import { formatCurrency } from '../../utilis/helpers';
+import DeleteItem from './DeleteItem';
+import UpdateItemQuantity from './UpdateItemQuantity';
 function CartItem({ item }) {
-    const { pizzaId, name, quantity, totalPrice } = item
+    const { pizzaId, name, quantity, totalPrice } = item;
 
     return (
         <li className="sm: py-3 sm:flex sm:items-center sm:justify-between">
@@ -12,10 +13,11 @@ function CartItem({ item }) {
                 <p className="text-sm font-bold">
                     {formatCurrency(totalPrice)}
                 </p>
-                <Button type="small">Delete</Button>
+                <UpdateItemQuantity pizzaId={pizzaId} quantity={quantity} />
+                <DeleteItem pizzaId={pizzaId} />
             </div>
         </li>
-    )
+    );
 }
 
-export default CartItem
+export default CartItem;
