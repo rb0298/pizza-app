@@ -19,7 +19,7 @@ function Cart() {
                 {' '}
                 Your Cart, {username}
             </h2>
-            <ul className=" mt-3 divide-y divide-stone-200 border-b ">
+            <ul className=" mt-3 divide-y divide-stone-200 ">
                 {cart.map((pizza) => (
                     <CartItem item={pizza} key={pizza.pizzaId} />
                 ))}
