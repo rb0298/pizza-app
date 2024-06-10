@@ -4,12 +4,12 @@
 
 ## Description
 
-FRESH OVEN PIZZA CO. is a React-based application built on Vite version 4. It interacts with a Supabase API to fetch, display, add, delete, and update data. This website is used for hotel internal management, allowing hotels to manage their data. Please note that the application is currently in the development state.
+Welcome to FRESH OVEN PIZZA CO., a React-based application built on Vite version 4. This application serves as a pizza order management system designed for hotels, allowing them to efficiently manage pizza orders for their customers. Please note that the application is currently in the development state.
 
 ## Features
 
-Fetch Data: Retrieve data from an External API.
-Display Data: Display the fetched data.
+Order Management: Handle pizza orders, including creating, updating, and tracking orders.
+Menu Display: Display a menu of available pizza options.
 
 ## Installation
 
